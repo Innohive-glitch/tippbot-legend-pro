@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wettbot - Dein persönlicher Wettassistent
 
-## Getting Started
+Eine moderne Web-Anwendung zur Verwaltung und Analyse deiner Wetten.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📝 Einfache Wetteingabe mit Einsatz, Quote und Beschreibung
+- 📊 Übersichtliche Statistiken zu Gewinnen und Verlusten
+- 🎯 Tracking von gewonnenen und verlorenen Wetten
+- 💰 Automatische Berechnung von möglichen Gewinnen
+- 📱 Responsive Design für alle Geräte
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologien
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 13+ mit App Router
+- TypeScript für type-safe Code
+- Tailwind CSS für modernes Styling
+- React Hooks für State Management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Repository klonen:
+   ```bash
+   git clone https://github.com/Innohive-glitch/tippbot-legend-pro.git
+   cd tippbot-legend-pro
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Dependencies installieren:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Entwicklungsserver starten:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Browser öffnen und zur angezeigten URL navigieren (standardmäßig http://localhost:3000)
 
-## Deploy on Vercel
+## Lizenz
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
